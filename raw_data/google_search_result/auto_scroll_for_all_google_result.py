@@ -1,4 +1,4 @@
-# Warning! This script will automatically control mouse and keyboard movement.
+# Warning! This script will automatically control cursor movement.
 
 import pyautogui
 import time
@@ -7,7 +7,7 @@ import time
 # 1920*1080
 
 time.sleep(4)
-# Time For Changing Windows to Your Browser Before Start
+# Delay Time For Changing Windows to Your Browser Before Starting Scroll Loop
 
 pyautogui.moveTo(500,900,duration=1)
 # Move Cursor to Select 'More Results' Button
@@ -15,7 +15,7 @@ pyautogui.moveTo(500,900,duration=1)
 for i in range(300):
     time.sleep(0.5)
     pyautogui.click(500,900,duration=1)
-    pyautogui.scroll(-1500)
+    pyautogui.scroll(-2000)
 # Click Button and Scroll Automatically, Exit with Ctrl-c.
 
-# When complete, Select All and Copy, Then, open text editor, paste the copied result, and make sure to remove personal data (your location in the footer).
+# When complete, Select All Google Result and Copy, Then, open text editor, paste the copied content, and make sure to remove personal data (your location in the footer).
