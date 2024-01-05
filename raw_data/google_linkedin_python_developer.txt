@@ -1,4 +1,4 @@
-# googel search = site:linkedin.com/in "github.com/" "python developer"
+# google search = site:linkedin.com/in "github.com/" "python developer"
 
 Anton Kokorin - Python Developer - freelance
 
