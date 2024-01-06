@@ -1,7 +1,9 @@
 import requests
 
 session = requests.Session()
-#session.headers.update({"Authorization": "token {token}"})
+with open ("token.txt", "r") as f:
+    x = f.readline()
+#session.headers.update({"Authorization": "token "+x.strip()})
 
 def CollectDataFromUser(username):
     response = session.get("https://api.github.com/users/"+username)
