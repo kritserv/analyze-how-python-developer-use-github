@@ -1,5 +1,4 @@
-files = ('google_linkedin_junior_python.txt',
-    'google_linkedin_python_developer.txt',
+files = ('google_linkedin_python_developer.txt',
     'google_linkedin_python_engineer.txt',
     'google_linkedin_python_programmer.txt',
     'google_linkedin_senior_python.txt',
@@ -7,7 +6,8 @@ files = ('google_linkedin_junior_python.txt',
     'google_twitter_python_developer.txt',
     'google_twitter_python_engineer.txt',
     'google_twitter_python_programmer.txt',
-    'google_twitter_senior_python.txt')
+    'google_twitter_senior_python.txt',
+    'google_stackoverflow_python_developer.txt')
 
 username_list = []
 
