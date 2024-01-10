@@ -1,13 +1,16 @@
 # Warning! This script will automatically control cursor movement.
 
+# The entire process cannot be done all automatically (by looping into list of url) 
+# since Google will ask you to complete captcha from time to time to make sure you're not a bot.
+
 import pyautogui
 import time
 
 #print(pyautogui.size())
 # 1920*1080
 
-# Before Running this Script Search Google with Specific Site for example:
-# site:www.linkedin.com/in "github.com/" "python developer"
+# Before Running this Script Search In Google with Specific Site and keyword for example:
+# site:www.linkedin.com/in "github.com/" "contact" python developer"
 
 # Delay Time For Changing Windows to Your Browser Before Starting Scroll Loop
 time.sleep(4)
@@ -28,4 +31,4 @@ for i in range(300):
     pyautogui.click(500,900,duration=1)
     pyautogui.scroll(-2000)
 
-# When complete, Select All Google Result and Copy, Then, open text editor, paste the copied content, and make sure to remove personal data (your location in the footer).
+# When complete, Select All Google Result and Copy, Then, open text editor and paste the copied content.
