@@ -1,4 +1,4 @@
-# google search word which have at least 1 search result
+# google search word with at least 1 search result
 
 site:www.linkedin.com/in "github.com/" "contact" "python developer"
 site:www.linkedin.com/in "github.com/" "contact" "python programmer"
