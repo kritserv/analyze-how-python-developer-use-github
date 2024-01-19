@@ -5,10 +5,10 @@
 <ul>
   <li><a href="/#Abstract">Abstract</a></li>
   <li><a href="/#Introduction">Introduction</a></li>
-  <li><a href="/#Related Work">Related Work</a></li>
-  <li><a href="/#Data Gathering">Data Gathering</a></li>
-  <li><a href="/#Data Cleaning">Data Cleaning</a></li>
-  <li><a href="/#Data Analysis">Data Analysis</a></li>
+  <li><a href="/#Related-Work">Related Work</a></li>
+  <li><a href="/#Data-Gathering">Data Gathering</a></li>
+  <li><a href="/#Data-Cleaning">Data Cleaning</a></li>
+  <li><a href="/#Data-Analysis">Data Analysis</a></li>
   <li><a href="/#Results">Results</a></li>
   <li><a href="/#Conclusion">Conclusion</a></li>
   <li><a href="/#References">References</a></li>
