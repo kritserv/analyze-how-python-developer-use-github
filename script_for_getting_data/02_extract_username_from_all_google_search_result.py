@@ -1,6 +1,6 @@
 username_list = []
 
-def ExtractGitHubUsernameFromFile(filename, username_list):
+def extract_github_username_from_file(filename, username_list):
 
     file = open(filename, 'r')
     lines = file.readlines()
@@ -45,7 +45,7 @@ def ExtractGitHubUsernameFromFile(filename, username_list):
                         username_list.append(username)
     file.close()
     
-ExtractGitHubUsernameFromFile("all.txt", username_list)
+extract_github_username_from_file("all.txt", username_list)
 
 print('Remove Duplicates')
 print("before: ", len(username_list))
