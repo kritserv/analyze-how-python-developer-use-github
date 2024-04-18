@@ -6,3 +6,4 @@ seaborn
 statsmodels
 imbalanced-learn
 pygam
+scikit-learn
